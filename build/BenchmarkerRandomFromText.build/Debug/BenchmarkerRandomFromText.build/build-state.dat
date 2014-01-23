@@ -1,0 +1,213 @@
+TBenchmarkerRandomFromText
+v7
+r0
+t358185089.527198
+cCheck dependencies
+cCompileC build/BenchmarkerRandomFromText.build/Debug/BenchmarkerRandomFromText.build/Objects-normal/x86_64/main.o "/Users/brucewatson/Dropbox/Dead Zone/Melanie/Melanie's code/DZ Zombie version tests/Benchmark_RandomFromText/main.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+cLd "/Users/brucewatson/Dropbox/Dead Zone/Melanie/Melanie's code/DZ Zombie version tests/Benchmark_RandomFromText/build/Debug/BenchmarkerRandomFromText" normal x86_64
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004D5A274300000000000000EE
+t1297753923
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/mach/mach_time.h
+c000000004CC3DE670000000000000746
+t1287904871
+s1862
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/time.h
+c000000004BBD2CE9000000000000178E
+t1270689001
+s6030
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/stdint.h
+c000000004A11EB24000000000000190C
+t1242688292
+s6412
+
+N/Users/brucewatson/Dropbox/Dead Zone/Melanie/Melanie's code/Benchmark_RandomFromText (5)/build/BenchmarkerRandomFromText.build/Debug/BenchmarkerRandomFromText.build/Objects-normal/x86_64/BenchmarkerRandomFromText.LinkFileList
+c000000004FA0F73800000000000000C2
+t1335949112
+s194
+
+N/Users/brucewatson/Dropbox/Dead Zone/Melanie/Melanie's code/Benchmark_RandomFromText (5)/build/BenchmarkerRandomFromText.build/Debug/BenchmarkerRandomFromText.build/Objects-normal/x86_64/main.o
+t1335954145
+s244196
+
+N/Users/brucewatson/Dropbox/Dead Zone/Melanie/Melanie's code/Benchmark_RandomFromText (5)/build/Debug/BenchmarkerRandomFromText
+t1335954145
+s81344
+
+N/Users/brucewatson/Dropbox/Dead Zone/Melanie/Melanie's code/Benchmark_RandomFromText (5)/main.cpp
+c000000004FA10AE0000000000000C4DD
+t1335954144
+s50397
+i<iostream>
+i<fstream>
+i<string>
+i<vector>
+i<stack>
+i<algorithm>
+i<cassert>
+i<stdint.h>
+i<time.h>
+i<mach/mach_time.h>
+i<utility>
+
+N/Users/brucewatson/Dropbox/Dead Zone/Melanie/Melanie's code/DZ Zombie version tests/Benchmark_RandomFromText/build/BenchmarkerRandomFromText.build/Debug/BenchmarkerRandomFromText.build/Objects-normal/x86_64/BenchmarkerRandomFromText.LinkFileList
+c000000004FA93E7A00000000000000D6
+t1336491642
+s214
+
+N/Users/brucewatson/Dropbox/Dead Zone/Melanie/Melanie's code/DZ Zombie version tests/Benchmark_RandomFromText/build/BenchmarkerRandomFromText.build/Debug/BenchmarkerRandomFromText.build/Objects-normal/x86_64/main.o
+t1336492289
+s170968
+
+N/Users/brucewatson/Dropbox/Dead Zone/Melanie/Melanie's code/DZ Zombie version tests/Benchmark_RandomFromText/build/Debug/BenchmarkerRandomFromText
+t2
+s0
+
+N/Users/brucewatson/Dropbox/Dead Zone/Melanie/Melanie's code/DZ Zombie version tests/Benchmark_RandomFromText/main.cpp
+c000000004FA941FD000000000000F310
+t1336492541
+s62224
+i<iostream>
+i<fstream>
+i<string>
+i<vector>
+i<stack>
+i<algorithm>
+i<cassert>
+i<stdint.h>
+i<time.h>
+i<mach/mach_time.h>
+i<utility>
+
+N/Users/brucewatson/Dropbox/Dead Zone/melanie/melanie's code/Benchmark_RandomFromText/build/BenchmarkerRandomFromText.build/Debug/BenchmarkerRandomFromText.build/Objects-normal/x86_64/BenchmarkerRandomFromText.LinkFileList
+c000000004F99CBCC00000000000000BE
+t1335479244
+s190
+
+N/Users/brucewatson/Dropbox/Dead Zone/melanie/melanie's code/Benchmark_RandomFromText/build/BenchmarkerRandomFromText.build/Debug/BenchmarkerRandomFromText.build/Objects-normal/x86_64/main.o
+t1335480327
+s157008
+
+N/Users/brucewatson/Dropbox/Dead Zone/melanie/melanie's code/Benchmark_RandomFromText/build/Debug/BenchmarkerRandomFromText
+t1335480327
+s45488
+
+N/Users/brucewatson/Dropbox/Dead Zone/melanie/melanie's code/Benchmark_RandomFromText/main.cpp
+c000000004F99CFA70000000000009314
+t1335480231
+s37652
+i<iostream>
+i<fstream>
+i<string>
+i<vector>
+i<stdint.h>
+i<time.h>
+i<mach/mach_time.h>
+i<utility>
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies358185089#358185089#0(0"0(0#1#0"8617763136#0"0#
+
+CCompileC build/BenchmarkerRandomFromText.build/Debug/BenchmarkerRandomFromText.build/Objects-normal/x86_64/main.o "/Users/brucewatson/Dropbox/Dead Zone/Melanie/Melanie's code/Benchmark_RandomFromText (5)/main.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+s357646944.868262
+e357646945.240690
+r1
+xCompileC
+xbuild/BenchmarkerRandomFromText.build/Debug/BenchmarkerRandomFromText.build/Objects-normal/x86_64/main.o
+x/Users/brucewatson/Dropbox/Dead Zone/Melanie/Melanie's code/Benchmark_RandomFromText (5)/main.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@105"Compile /Users/brucewatson/Dropbox/Dead Zone/Melanie/Melanie's code/Benchmark_RandomFromText (5)/main.cpp357646944#357646945#0(0"0(0#0#97"/Users/brucewatson/Dropbox/Dead Zone/Melanie/Melanie's code/Benchmark_RandomFromText (5)/main.cpp8603158112#2204"    cd "/Users/brucewatson/Dropbox/Dead Zone/Melanie/Melanie's code/Benchmark_RandomFromText (5)"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -funsigned-char -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/brucewatson/Dropbox/Dead Zone/Melanie/Melanie's code/Benchmark_RandomFromText (5)/build/BenchmarkerRandomFromText.build/Debug/BenchmarkerRandomFromText.build/BenchmarkerRandomFromText-generated-files.hmap" "-I/Users/brucewatson/Dropbox/Dead Zone/Melanie/Melanie's code/Benchmark_RandomFromText (5)/build/BenchmarkerRandomFromText.build/Debug/BenchmarkerRandomFromText.build/BenchmarkerRandomFromText-own-target-headers.hmap" "-I/Users/brucewatson/Dropbox/Dead Zone/Melanie/Melanie's code/Benchmark_RandomFromText (5)/build/BenchmarkerRandomFromText.build/Debug/BenchmarkerRandomFromText.build/BenchmarkerRandomFromText-all-target-headers.hmap" -iquote "/Users/brucewatson/Dropbox/Dead Zone/Melanie/Melanie's code/Benchmark_RandomFromText (5)/build/BenchmarkerRandomFromText.build/Debug/BenchmarkerRandomFromText.build/BenchmarkerRandomFromText-project-headers.hmap" "-F/Users/brucewatson/Dropbox/Dead Zone/Melanie/Melanie's code/Benchmark_RandomFromText (5)/build/Debug" "-I/Users/brucewatson/Dropbox/Dead Zone/Melanie/Melanie's code/Benchmark_RandomFromText (5)/build/Debug/include" "-I/Users/brucewatson/Dropbox/Dead Zone/Melanie/Melanie's code/Benchmark_RandomFromText (5)/build/BenchmarkerRandomFromText.build/Debug/BenchmarkerRandomFromText.build/DerivedSources/x86_64" "-I/Users/brucewatson/Dropbox/Dead Zone/Melanie/Melanie's code/Benchmark_RandomFromText (5)/build/BenchmarkerRandomFromText.build/Debug/BenchmarkerRandomFromText.build/DerivedSources" -c "/Users/brucewatson/Dropbox/Dead Zone/Melanie/Melanie's code/Benchmark_RandomFromText (5)/main.cpp" -o "/Users/brucewatson/Dropbox/Dead Zone/Melanie/Melanie's code/Benchmark_RandomFromText (5)/build/BenchmarkerRandomFromText.build/Debug/BenchmarkerRandomFromText.build/Objects-normal/x86_64/main.o"0#
+
+CCompileC build/BenchmarkerRandomFromText.build/Debug/BenchmarkerRandomFromText.build/Objects-normal/x86_64/main.o "/Users/brucewatson/Dropbox/Dead Zone/Melanie/Melanie's code/DZ Zombie version tests/Benchmark_RandomFromText/main.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+s358185089.130394
+e358185089.513810
+r1
+xCompileC
+xbuild/BenchmarkerRandomFromText.build/Debug/BenchmarkerRandomFromText.build/Objects-normal/x86_64/main.o
+x/Users/brucewatson/Dropbox/Dead Zone/Melanie/Melanie's code/DZ Zombie version tests/Benchmark_RandomFromText/main.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@125"Compile /Users/brucewatson/Dropbox/Dead Zone/Melanie/Melanie's code/DZ Zombie version tests/Benchmark_RandomFromText/main.cpp358185089#358185089#0(0"0(0#0#117"/Users/brucewatson/Dropbox/Dead Zone/Melanie/Melanie's code/DZ Zombie version tests/Benchmark_RandomFromText/main.cpp8615771840#2424"    cd "/Users/brucewatson/Dropbox/Dead Zone/Melanie/Melanie's code/DZ Zombie version tests/Benchmark_RandomFromText"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -funsigned-char -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/brucewatson/Dropbox/Dead Zone/Melanie/Melanie's code/DZ Zombie version tests/Benchmark_RandomFromText/build/BenchmarkerRandomFromText.build/Debug/BenchmarkerRandomFromText.build/BenchmarkerRandomFromText-generated-files.hmap" "-I/Users/brucewatson/Dropbox/Dead Zone/Melanie/Melanie's code/DZ Zombie version tests/Benchmark_RandomFromText/build/BenchmarkerRandomFromText.build/Debug/BenchmarkerRandomFromText.build/BenchmarkerRandomFromText-own-target-headers.hmap" "-I/Users/brucewatson/Dropbox/Dead Zone/Melanie/Melanie's code/DZ Zombie version tests/Benchmark_RandomFromText/build/BenchmarkerRandomFromText.build/Debug/BenchmarkerRandomFromText.build/BenchmarkerRandomFromText-all-target-headers.hmap" -iquote "/Users/brucewatson/Dropbox/Dead Zone/Melanie/Melanie's code/DZ Zombie version tests/Benchmark_RandomFromText/build/BenchmarkerRandomFromText.build/Debug/BenchmarkerRandomFromText.build/BenchmarkerRandomFromText-project-headers.hmap" "-F/Users/brucewatson/Dropbox/Dead Zone/Melanie/Melanie's code/DZ Zombie version tests/Benchmark_RandomFromText/build/Debug" "-I/Users/brucewatson/Dropbox/Dead Zone/Melanie/Melanie's code/DZ Zombie version tests/Benchmark_RandomFromText/build/Debug/include" "-I/Users/brucewatson/Dropbox/Dead Zone/Melanie/Melanie's code/DZ Zombie version tests/Benchmark_RandomFromText/build/BenchmarkerRandomFromText.build/Debug/BenchmarkerRandomFromText.build/DerivedSources/x86_64" "-I/Users/brucewatson/Dropbox/Dead Zone/Melanie/Melanie's code/DZ Zombie version tests/Benchmark_RandomFromText/build/BenchmarkerRandomFromText.build/Debug/BenchmarkerRandomFromText.build/DerivedSources" -c "/Users/brucewatson/Dropbox/Dead Zone/Melanie/Melanie's code/DZ Zombie version tests/Benchmark_RandomFromText/main.cpp" -o "/Users/brucewatson/Dropbox/Dead Zone/Melanie/Melanie's code/DZ Zombie version tests/Benchmark_RandomFromText/build/BenchmarkerRandomFromText.build/Debug/BenchmarkerRandomFromText.build/Objects-normal/x86_64/main.o"0#
+
+CCompileC build/BenchmarkerRandomFromText.build/Debug/BenchmarkerRandomFromText.build/Objects-normal/x86_64/main.o "/Users/brucewatson/Dropbox/Dead Zone/melanie/melanie's code/Benchmark_RandomFromText/main.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+s357173126.721409
+e357173127.234234
+r1
+xCompileC
+xbuild/BenchmarkerRandomFromText.build/Debug/BenchmarkerRandomFromText.build/Objects-normal/x86_64/main.o
+x/Users/brucewatson/Dropbox/Dead Zone/melanie/melanie's code/Benchmark_RandomFromText/main.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@101"Compile /Users/brucewatson/Dropbox/Dead Zone/melanie/melanie's code/Benchmark_RandomFromText/main.cpp357173126#357173127#0(0"0(0#0#93"/Users/brucewatson/Dropbox/Dead Zone/melanie/melanie's code/Benchmark_RandomFromText/main.cpp8615301888#2160"    cd "/Users/brucewatson/Dropbox/Dead Zone/melanie/melanie's code/Benchmark_RandomFromText"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -funsigned-char -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/brucewatson/Dropbox/Dead Zone/melanie/melanie's code/Benchmark_RandomFromText/build/BenchmarkerRandomFromText.build/Debug/BenchmarkerRandomFromText.build/BenchmarkerRandomFromText-generated-files.hmap" "-I/Users/brucewatson/Dropbox/Dead Zone/melanie/melanie's code/Benchmark_RandomFromText/build/BenchmarkerRandomFromText.build/Debug/BenchmarkerRandomFromText.build/BenchmarkerRandomFromText-own-target-headers.hmap" "-I/Users/brucewatson/Dropbox/Dead Zone/melanie/melanie's code/Benchmark_RandomFromText/build/BenchmarkerRandomFromText.build/Debug/BenchmarkerRandomFromText.build/BenchmarkerRandomFromText-all-target-headers.hmap" -iquote "/Users/brucewatson/Dropbox/Dead Zone/melanie/melanie's code/Benchmark_RandomFromText/build/BenchmarkerRandomFromText.build/Debug/BenchmarkerRandomFromText.build/BenchmarkerRandomFromText-project-headers.hmap" "-F/Users/brucewatson/Dropbox/Dead Zone/melanie/melanie's code/Benchmark_RandomFromText/build/Debug" "-I/Users/brucewatson/Dropbox/Dead Zone/melanie/melanie's code/Benchmark_RandomFromText/build/Debug/include" "-I/Users/brucewatson/Dropbox/Dead Zone/melanie/melanie's code/Benchmark_RandomFromText/build/BenchmarkerRandomFromText.build/Debug/BenchmarkerRandomFromText.build/DerivedSources/x86_64" "-I/Users/brucewatson/Dropbox/Dead Zone/melanie/melanie's code/Benchmark_RandomFromText/build/BenchmarkerRandomFromText.build/Debug/BenchmarkerRandomFromText.build/DerivedSources" -c "/Users/brucewatson/Dropbox/Dead Zone/melanie/melanie's code/Benchmark_RandomFromText/main.cpp" -o "/Users/brucewatson/Dropbox/Dead Zone/melanie/melanie's code/Benchmark_RandomFromText/build/BenchmarkerRandomFromText.build/Debug/BenchmarkerRandomFromText.build/Objects-normal/x86_64/main.o"0#
+
+CLd "/Users/brucewatson/Dropbox/Dead Zone/Melanie/Melanie's code/Benchmark_RandomFromText (5)/build/Debug/BenchmarkerRandomFromText" normal x86_64
+s357646945.240754
+e357646945.406097
+r1
+xLd
+x/Users/brucewatson/Dropbox/Dead Zone/Melanie/Melanie's code/Benchmark_RandomFromText (5)/build/Debug/BenchmarkerRandomFromText
+xnormal
+xx86_64
+lSLF07#2@131"Link /Users/brucewatson/Dropbox/Dead Zone/Melanie/Melanie's code/Benchmark_RandomFromText (5)/build/Debug/BenchmarkerRandomFromText357646945#357646945#0(0"0(0#0#0"8608863328#839"    cd "/Users/brucewatson/Dropbox/Dead Zone/Melanie/Melanie's code/Benchmark_RandomFromText (5)"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/g++-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk "-L/Users/brucewatson/Dropbox/Dead Zone/Melanie/Melanie's code/Benchmark_RandomFromText (5)/build/Debug" "-F/Users/brucewatson/Dropbox/Dead Zone/Melanie/Melanie's code/Benchmark_RandomFromText (5)/build/Debug" -filelist "/Users/brucewatson/Dropbox/Dead Zone/Melanie/Melanie's code/Benchmark_RandomFromText (5)/build/BenchmarkerRandomFromText.build/Debug/BenchmarkerRandomFromText.build/Objects-normal/x86_64/BenchmarkerRandomFromText.LinkFileList" -mmacosx-version-min=10.6 -prebind -o "/Users/brucewatson/Dropbox/Dead Zone/Melanie/Melanie's code/Benchmark_RandomFromText (5)/build/Debug/BenchmarkerRandomFromText"0#
+
+CLd "/Users/brucewatson/Dropbox/Dead Zone/Melanie/Melanie's code/DZ Zombie version tests/Benchmark_RandomFromText/build/Debug/BenchmarkerRandomFromText" normal x86_64
+s358185089.513881
+e358185089.527162
+r0
+xLd
+x/Users/brucewatson/Dropbox/Dead Zone/Melanie/Melanie's code/DZ Zombie version tests/Benchmark_RandomFromText/build/Debug/BenchmarkerRandomFromText
+xnormal
+xx86_64
+oUndefined symbols:
+o  "Zombie::shr", referenced from:
+o      Zombie::Zombie(std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)in main.o
+o      Zombie::Zombie(std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)in main.o
+o      Zombie_recursive::searchrec(int, int, std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)in main.o
+o  "Zombie::m", referenced from:
+o      Zombie::Zombie(std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)in main.o
+o      Zombie::Zombie(std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)in main.o
+o      Zombie::Zombie(std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)in main.o
+o      Zombie::Zombie(std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)in main.o
+o      Zombie::Zombie(std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)in main.o
+o      Zombie::Zombie(std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)in main.o
+o      Zombie_recursive::searchrec(int, int, std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)in main.o
+o      Zombie_recursive::searchrec(int, int, std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)in main.o
+o      Zombie_recursive::searchrec(int, int, std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)in main.o
+o  "Zombie::P", referenced from:
+o      Zombie::Zombie(std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)in main.o
+o      Zombie::Zombie(std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)in main.o
+o      Zombie::Zombie(std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)in main.o
+o      Zombie::Zombie(std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)in main.o
+o      Zombie_recursive::searchrec(int, int, std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)in main.o
+o      Zombie_recursive::search(std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)in main.o
+o  "Zombie::shl", referenced from:
+o      Zombie::Zombie(std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)in main.o
+o      Zombie::Zombie(std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)in main.o
+o      Zombie_recursive::searchrec(int, int, std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)in main.o
+old: symbol(s) not found
+ocollect2: ld returned 1 exit status
+lSLF07#2@151"Link /Users/brucewatson/Dropbox/Dead Zone/Melanie/Melanie's code/DZ Zombie version tests/Benchmark_RandomFromText/build/Debug/BenchmarkerRandomFromText358185089#358185089#0(2648"Undefined symbols:  "Zombie::shr", referenced from:      Zombie::Zombie(std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)in main.o      Zombie::Zombie(std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)in main.o      Zombie_recursive::searchrec(int, int, std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)in main.o  "Zombie::m", referenced from:      Zombie::Zombie(std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)in main.o      Zombie::Zombie(std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)in main.o      Zombie::Zombie(std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)in main.o      Zombie::Zombie(std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)in main.o      Zombie::Zombie(std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)in main.o      Zombie::Zombie(std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)in main.o      Zombie_recursive::searchrec(int, int, std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)in main.o      Zombie_recursive::searchrec(int, int, std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)in main.o      Zombie_recursive::searchrec(int, int, std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)in main.o  "Zombie::P", referenced from:      Zombie::Zombie(std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)in main.o      Zombie::Zombie(std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)in main.o      Zombie::Zombie(std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)in main.o      Zombie::Zombie(std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)in main.o      Zombie_recursive::searchrec(int, int, std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)in main.o      Zombie_recursive::search(std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)in main.o  "Zombie::shl", referenced from:      Zombie::Zombie(std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)in main.o      Zombie::Zombie(std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)in main.o      Zombie_recursive::searchrec(int, int, std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)in main.old: symbol(s) not foundcollect2: ld returned 1 exit status27(4@31""Zombie::shr", referenced from:358185089#19#34#0(6@0"358185089#0#0#0#0#0"0(13@102"Zombie::Zombie(std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)in main.o358185089#53#109#0(6@0"358185089#0#0#0#0#0"0(13@102"Zombie::Zombie(std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)in main.o358185089#162#109#0(6@0"358185089#0#0#0#0#0"0(13@125"Zombie_recursive::searchrec(int, int, std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)in main.o358185089#271#132#0(6@0"358185089#0#0#0#0#0"0(4@29""Zombie::m", referenced from:358185089#403#32#0(6@0"358185089#0#0#0#0#0"0(13@102"Zombie::Zombie(std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)in main.o358185089#435#109#0(6@0"358185089#0#0#0#0#0"0(13@102"Zombie::Zombie(std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)in main.o358185089#544#109#0(6@0"358185089#0#0#0#0#0"0(13@102"Zombie::Zombie(std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)in main.o358185089#653#109#0(6@0"358185089#0#0#0#0#0"0(13@102"Zombie::Zombie(std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)in main.o358185089#762#109#0(6@0"358185089#0#0#0#0#0"0(13@102"Zombie::Zombie(std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)in main.o358185089#871#109#0(6@0"358185089#0#0#0#0#0"0(13@102"Zombie::Zombie(std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)in main.o358185089#980#109#0(6@0"358185089#0#0#0#0#0"0(13@125"Zombie_recursive::searchrec(int, int, std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)in main.o358185089#1089#132#0(6@0"358185089#0#0#0#0#0"0(13@125"Zombie_recursive::searchrec(int, int, std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)in main.o358185089#1221#132#0(6@0"358185089#0#0#0#0#0"0(13@125"Zombie_recursive::searchrec(int, int, std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)in main.o358185089#1353#132#0(6@0"358185089#0#0#0#0#0"0(4@29""Zombie::P", referenced from:358185089#1485#32#0(6@0"358185089#0#0#0#0#0"0(13@102"Zombie::Zombie(std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)in main.o358185089#1517#109#0(6@0"358185089#0#0#0#0#0"0(13@102"Zombie::Zombie(std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)in main.o358185089#1626#109#0(6@0"358185089#0#0#0#0#0"0(13@102"Zombie::Zombie(std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)in main.o358185089#1735#109#0(6@0"358185089#0#0#0#0#0"0(13@102"Zombie::Zombie(std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)in main.o358185089#1844#109#0(6@0"358185089#0#0#0#0#0"0(13@125"Zombie_recursive::searchrec(int, int, std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)in main.o358185089#1953#132#0(6@0"358185089#0#0#0#0#0"0(13@112"Zombie_recursive::search(std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)in main.o358185089#2085#119#0(6@0"358185089#0#0#0#0#0"0(4@31""Zombie::shl", referenced from:358185089#2204#34#0(6@0"358185089#0#0#0#0#0"0(13@102"Zombie::Zombie(std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)in main.o358185089#2238#109#0(6@0"358185089#0#0#0#0#0"0(13@102"Zombie::Zombie(std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)in main.o358185089#2347#109#0(6@0"358185089#0#0#0#0#0"0(13@125"Zombie_recursive::searchrec(int, int, std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)in main.o358185089#2456#132#0(6@0"358185089#0#0#0#0#0"0(13@19"Symbol(s) not found358185089#2588#24#0(6@0"358185089#0#0#0#0#0"0(13@35"Collect2: ld returned 1 exit status358185089#2612#36#0(6@0"358185089#0#0#0#0#0"0(0#0#0"8618698560#939"    cd "/Users/brucewatson/Dropbox/Dead Zone/Melanie/Melanie's code/DZ Zombie version tests/Benchmark_RandomFromText"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/g++-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk "-L/Users/brucewatson/Dropbox/Dead Zone/Melanie/Melanie's code/DZ Zombie version tests/Benchmark_RandomFromText/build/Debug" "-F/Users/brucewatson/Dropbox/Dead Zone/Melanie/Melanie's code/DZ Zombie version tests/Benchmark_RandomFromText/build/Debug" -filelist "/Users/brucewatson/Dropbox/Dead Zone/Melanie/Melanie's code/DZ Zombie version tests/Benchmark_RandomFromText/build/BenchmarkerRandomFromText.build/Debug/BenchmarkerRandomFromText.build/Objects-normal/x86_64/BenchmarkerRandomFromText.LinkFileList" -mmacosx-version-min=10.6 -prebind -o "/Users/brucewatson/Dropbox/Dead Zone/Melanie/Melanie's code/DZ Zombie version tests/Benchmark_RandomFromText/build/Debug/BenchmarkerRandomFromText"1#
+
+CLd "/Users/brucewatson/Dropbox/Dead Zone/melanie/melanie's code/Benchmark_RandomFromText/build/Debug/BenchmarkerRandomFromText" normal x86_64
+s357173127.234328
+e357173127.253239
+r1
+xLd
+x/Users/brucewatson/Dropbox/Dead Zone/melanie/melanie's code/Benchmark_RandomFromText/build/Debug/BenchmarkerRandomFromText
+xnormal
+xx86_64
+lSLF07#2@127"Link /Users/brucewatson/Dropbox/Dead Zone/melanie/melanie's code/Benchmark_RandomFromText/build/Debug/BenchmarkerRandomFromText357173127#357173127#0(0"0(0#0#0"8614897344#819"    cd "/Users/brucewatson/Dropbox/Dead Zone/melanie/melanie's code/Benchmark_RandomFromText"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/g++-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk "-L/Users/brucewatson/Dropbox/Dead Zone/melanie/melanie's code/Benchmark_RandomFromText/build/Debug" "-F/Users/brucewatson/Dropbox/Dead Zone/melanie/melanie's code/Benchmark_RandomFromText/build/Debug" -filelist "/Users/brucewatson/Dropbox/Dead Zone/melanie/melanie's code/Benchmark_RandomFromText/build/BenchmarkerRandomFromText.build/Debug/BenchmarkerRandomFromText.build/Objects-normal/x86_64/BenchmarkerRandomFromText.LinkFileList" -mmacosx-version-min=10.6 -prebind -o "/Users/brucewatson/Dropbox/Dead Zone/melanie/melanie's code/Benchmark_RandomFromText/build/Debug/BenchmarkerRandomFromText"0#
+

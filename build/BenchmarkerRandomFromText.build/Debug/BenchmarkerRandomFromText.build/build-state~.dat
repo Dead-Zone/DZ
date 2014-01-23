@@ -1,0 +1,81 @@
+TBenchmarkerRandomFromText
+v7
+r0
+t357172044.645180
+cCheck dependencies
+cCompileC build/BenchmarkerRandomFromText.build/Debug/BenchmarkerRandomFromText.build/Objects-normal/x86_64/main.o "/Users/brucewatson/Dropbox/Dead Zone/melanie/melanie's code/Benchmark_RandomFromText/main.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+cLd "/Users/brucewatson/Dropbox/Dead Zone/melanie/melanie's code/Benchmark_RandomFromText/build/Debug/BenchmarkerRandomFromText" normal x86_64
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004D5A274300000000000000EE
+t1297753923
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/mach/mach_time.h
+c000000004CC3DE670000000000000746
+t1287904871
+s1862
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/time.h
+c000000004BBD2CE9000000000000178E
+t1270689001
+s6030
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/stdint.h
+c000000004A11EB24000000000000190C
+t1242688292
+s6412
+
+N/Users/brucewatson/Dropbox/Dead Zone/melanie/melanie's code/Benchmark_RandomFromText/build/BenchmarkerRandomFromText.build/Debug/BenchmarkerRandomFromText.build/Objects-normal/x86_64/BenchmarkerRandomFromText.LinkFileList
+c000000004F99CBCC00000000000000BE
+t1335479244
+s190
+
+N/Users/brucewatson/Dropbox/Dead Zone/melanie/melanie's code/Benchmark_RandomFromText/build/BenchmarkerRandomFromText.build/Debug/BenchmarkerRandomFromText.build/Objects-normal/x86_64/main.o
+t1335479244
+s155100
+
+N/Users/brucewatson/Dropbox/Dead Zone/melanie/melanie's code/Benchmark_RandomFromText/build/Debug/BenchmarkerRandomFromText
+t1335479244
+s44728
+
+N/Users/brucewatson/Dropbox/Dead Zone/melanie/melanie's code/Benchmark_RandomFromText/main.cpp
+c000000004F9125E10000000000008B84
+t1334912481
+s35716
+i<iostream>
+i<fstream>
+i<string>
+i<vector>
+i<stdint.h>
+i<time.h>
+i<mach/mach_time.h>
+i<utility>
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies357172044#357172044#0(0"0(0#1#0"5940922370609998848#0"0#
+
+CCompileC build/BenchmarkerRandomFromText.build/Debug/BenchmarkerRandomFromText.build/Objects-normal/x86_64/main.o "/Users/brucewatson/Dropbox/Dead Zone/melanie/melanie's code/Benchmark_RandomFromText/main.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+s357172044.175725
+e357172044.628598
+r1
+xCompileC
+xbuild/BenchmarkerRandomFromText.build/Debug/BenchmarkerRandomFromText.build/Objects-normal/x86_64/main.o
+x/Users/brucewatson/Dropbox/Dead Zone/melanie/melanie's code/Benchmark_RandomFromText/main.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@101"Compile /Users/brucewatson/Dropbox/Dead Zone/melanie/melanie's code/Benchmark_RandomFromText/main.cpp357172044#357172044#0(0"0(0#0#93"/Users/brucewatson/Dropbox/Dead Zone/melanie/melanie's code/Benchmark_RandomFromText/main.cpp8241989088176923648#2144"    cd "/Users/brucewatson/Dropbox/Dead Zone/melanie/melanie's code/Benchmark_RandomFromText"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/brucewatson/Dropbox/Dead Zone/melanie/melanie's code/Benchmark_RandomFromText/build/BenchmarkerRandomFromText.build/Debug/BenchmarkerRandomFromText.build/BenchmarkerRandomFromText-generated-files.hmap" "-I/Users/brucewatson/Dropbox/Dead Zone/melanie/melanie's code/Benchmark_RandomFromText/build/BenchmarkerRandomFromText.build/Debug/BenchmarkerRandomFromText.build/BenchmarkerRandomFromText-own-target-headers.hmap" "-I/Users/brucewatson/Dropbox/Dead Zone/melanie/melanie's code/Benchmark_RandomFromText/build/BenchmarkerRandomFromText.build/Debug/BenchmarkerRandomFromText.build/BenchmarkerRandomFromText-all-target-headers.hmap" -iquote "/Users/brucewatson/Dropbox/Dead Zone/melanie/melanie's code/Benchmark_RandomFromText/build/BenchmarkerRandomFromText.build/Debug/BenchmarkerRandomFromText.build/BenchmarkerRandomFromText-project-headers.hmap" "-F/Users/brucewatson/Dropbox/Dead Zone/melanie/melanie's code/Benchmark_RandomFromText/build/Debug" "-I/Users/brucewatson/Dropbox/Dead Zone/melanie/melanie's code/Benchmark_RandomFromText/build/Debug/include" "-I/Users/brucewatson/Dropbox/Dead Zone/melanie/melanie's code/Benchmark_RandomFromText/build/BenchmarkerRandomFromText.build/Debug/BenchmarkerRandomFromText.build/DerivedSources/x86_64" "-I/Users/brucewatson/Dropbox/Dead Zone/melanie/melanie's code/Benchmark_RandomFromText/build/BenchmarkerRandomFromText.build/Debug/BenchmarkerRandomFromText.build/DerivedSources" -c "/Users/brucewatson/Dropbox/Dead Zone/melanie/melanie's code/Benchmark_RandomFromText/main.cpp" -o "/Users/brucewatson/Dropbox/Dead Zone/melanie/melanie's code/Benchmark_RandomFromText/build/BenchmarkerRandomFromText.build/Debug/BenchmarkerRandomFromText.build/Objects-normal/x86_64/main.o"0#
+
+CLd "/Users/brucewatson/Dropbox/Dead Zone/melanie/melanie's code/Benchmark_RandomFromText/build/Debug/BenchmarkerRandomFromText" normal x86_64
+s357172044.628699
+e357172044.644999
+r1
+xLd
+x/Users/brucewatson/Dropbox/Dead Zone/melanie/melanie's code/Benchmark_RandomFromText/build/Debug/BenchmarkerRandomFromText
+xnormal
+xx86_64
+lSLF07#2@127"Link /Users/brucewatson/Dropbox/Dead Zone/melanie/melanie's code/Benchmark_RandomFromText/build/Debug/BenchmarkerRandomFromText357172044#357172044#0(0"0(0#0#0"8606857504#819"    cd "/Users/brucewatson/Dropbox/Dead Zone/melanie/melanie's code/Benchmark_RandomFromText"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/g++-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk "-L/Users/brucewatson/Dropbox/Dead Zone/melanie/melanie's code/Benchmark_RandomFromText/build/Debug" "-F/Users/brucewatson/Dropbox/Dead Zone/melanie/melanie's code/Benchmark_RandomFromText/build/Debug" -filelist "/Users/brucewatson/Dropbox/Dead Zone/melanie/melanie's code/Benchmark_RandomFromText/build/BenchmarkerRandomFromText.build/Debug/BenchmarkerRandomFromText.build/Objects-normal/x86_64/BenchmarkerRandomFromText.LinkFileList" -mmacosx-version-min=10.6 -prebind -o "/Users/brucewatson/Dropbox/Dead Zone/melanie/melanie's code/Benchmark_RandomFromText/build/Debug/BenchmarkerRandomFromText"0#
+

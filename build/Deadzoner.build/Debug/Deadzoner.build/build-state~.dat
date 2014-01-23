@@ -1,0 +1,59 @@
+TDeadzoner
+v7
+r0
+t351119796.963044
+cCheck dependencies
+cCompileC build/Deadzoner.build/Debug/Deadzoner.build/Objects-normal/x86_64/main.o /Users/brucewatson/Documents/work/research/src/fst/Deadzoner/main.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+cLd /Users/brucewatson/Documents/work/research/src/fst/Deadzoner/build/Debug/Deadzoner normal x86_64
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004D5A274300000000000000EE
+t1297753923
+s238
+
+N/Users/brucewatson/Documents/work/research/src/fst/Deadzoner/build/Deadzoner.build/Debug/Deadzoner.build/Objects-normal/x86_64/Deadzoner.LinkFileList
+c000000004F3D72330000000000000086
+t1329426995
+s134
+
+N/Users/brucewatson/Documents/work/research/src/fst/Deadzoner/build/Deadzoner.build/Debug/Deadzoner.build/Objects-normal/x86_64/main.o
+t1329426996
+s67032
+
+N/Users/brucewatson/Documents/work/research/src/fst/Deadzoner/build/Debug/Deadzoner
+t1329426996
+s10616
+
+N/Users/brucewatson/Documents/work/research/src/fst/Deadzoner/main.cpp
+c000000004F3D72270000000000000090
+t1329426983
+s144
+i<iostream>
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies351119795#351119795#0(0"0(0#1#0"8247620834010738688#0"0#
+
+CCompileC build/Deadzoner.build/Debug/Deadzoner.build/Objects-normal/x86_64/main.o /Users/brucewatson/Documents/work/research/src/fst/Deadzoner/main.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s351119795.657044
+e351119796.376774
+r1
+xCompileC
+xbuild/Deadzoner.build/Debug/Deadzoner.build/Objects-normal/x86_64/main.o
+x/Users/brucewatson/Documents/work/research/src/fst/Deadzoner/main.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/brucewatson/Documents/work/research/src/fst/Deadzoner/main.cpp351119795#351119796#0(0"0(0#0#69"/Users/brucewatson/Documents/work/research/src/fst/Deadzoner/main.cpp3907004821821025792#1569"    cd /Users/brucewatson/Documents/work/research/src/fst/Deadzoner    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/brucewatson/Documents/work/research/src/fst/Deadzoner/build/Deadzoner.build/Debug/Deadzoner.build/Deadzoner-generated-files.hmap -I/Users/brucewatson/Documents/work/research/src/fst/Deadzoner/build/Deadzoner.build/Debug/Deadzoner.build/Deadzoner-own-target-headers.hmap -I/Users/brucewatson/Documents/work/research/src/fst/Deadzoner/build/Deadzoner.build/Debug/Deadzoner.build/Deadzoner-all-target-headers.hmap -iquote /Users/brucewatson/Documents/work/research/src/fst/Deadzoner/build/Deadzoner.build/Debug/Deadzoner.build/Deadzoner-project-headers.hmap -F/Users/brucewatson/Documents/work/research/src/fst/Deadzoner/build/Debug -I/Users/brucewatson/Documents/work/research/src/fst/Deadzoner/build/Debug/include -I/Users/brucewatson/Documents/work/research/src/fst/Deadzoner/build/Deadzoner.build/Debug/Deadzoner.build/DerivedSources/x86_64 -I/Users/brucewatson/Documents/work/research/src/fst/Deadzoner/build/Deadzoner.build/Debug/Deadzoner.build/DerivedSources -c /Users/brucewatson/Documents/work/research/src/fst/Deadzoner/main.cpp -o /Users/brucewatson/Documents/work/research/src/fst/Deadzoner/build/Deadzoner.build/Debug/Deadzoner.build/Objects-normal/x86_64/main.o0#
+
+CLd /Users/brucewatson/Documents/work/research/src/fst/Deadzoner/build/Debug/Deadzoner normal x86_64
+s351119796.377018
+e351119796.962668
+r1
+xLd
+x/Users/brucewatson/Documents/work/research/src/fst/Deadzoner/build/Debug/Deadzoner
+xnormal
+xx86_64
+lSLF07#2@87"Link /Users/brucewatson/Documents/work/research/src/fst/Deadzoner/build/Debug/Deadzoner351119796#351119796#0(0"0(0#0#0"8607486048#616"    cd /Users/brucewatson/Documents/work/research/src/fst/Deadzoner    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/g++-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/brucewatson/Documents/work/research/src/fst/Deadzoner/build/Debug -F/Users/brucewatson/Documents/work/research/src/fst/Deadzoner/build/Debug -filelist /Users/brucewatson/Documents/work/research/src/fst/Deadzoner/build/Deadzoner.build/Debug/Deadzoner.build/Objects-normal/x86_64/Deadzoner.LinkFileList -mmacosx-version-min=10.6 -o /Users/brucewatson/Documents/work/research/src/fst/Deadzoner/build/Debug/Deadzoner0#
+
