@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		61D50B2318B5FD480062922E /* BM.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 61D50B2118B5FD480062922E /* BM.cpp */; };
+		61D50B2618B600A30062922E /* Horspool.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 61D50B2418B600A30062922E /* Horspool.cpp */; };
 		8DD76F650486A84900D96B5E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 08FB7796FE84155DC02AAC07 /* main.cpp */; settings = {ATTRIBUTES = (); }; };
 /* End PBXBuildFile section */
 
@@ -27,6 +28,8 @@
 		08FB7796FE84155DC02AAC07 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		61D50B2118B5FD480062922E /* BM.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BM.cpp; sourceTree = "<group>"; };
 		61D50B2218B5FD480062922E /* BM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BM.h; sourceTree = "<group>"; };
+		61D50B2418B600A30062922E /* Horspool.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Horspool.cpp; sourceTree = "<group>"; };
+		61D50B2518B600A30062922E /* Horspool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Horspool.h; sourceTree = "<group>"; };
 		8DD76F6C0486A84900D96B5E /* BenchmarkerRandomFromText */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BenchmarkerRandomFromText; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -57,6 +60,8 @@
 				08FB7796FE84155DC02AAC07 /* main.cpp */,
 				61D50B2118B5FD480062922E /* BM.cpp */,
 				61D50B2218B5FD480062922E /* BM.h */,
+				61D50B2418B600A30062922E /* Horspool.cpp */,
+				61D50B2518B600A30062922E /* Horspool.h */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -129,6 +134,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61D50B2618B600A30062922E /* Horspool.cpp in Sources */,
 				61D50B2318B5FD480062922E /* BM.cpp in Sources */,
 				8DD76F650486A84900D96B5E /* main.cpp in Sources */,
 			);
