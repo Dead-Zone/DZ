@@ -15,6 +15,7 @@
 		61D50B3218B611080062922E /* Zombie_iterative.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 61D50B3018B611080062922E /* Zombie_iterative.cpp */; };
 		61D50B3518B611CD0062922E /* Zombie_recursive.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 61D50B3318B611CD0062922E /* Zombie_recursive.cpp */; };
 		61D50B3818B612A70062922E /* Zombie_rec_nr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 61D50B3618B612A70062922E /* Zombie_rec_nr.cpp */; };
+		61D50B3B18B615CF0062922E /* RandomGenerator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 61D50B3918B615CF0062922E /* RandomGenerator.cpp */; };
 		8DD76F650486A84900D96B5E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 08FB7796FE84155DC02AAC07 /* main.cpp */; settings = {ATTRIBUTES = (); }; };
 /* End PBXBuildFile section */
 
@@ -48,6 +49,8 @@
 		61D50B3418B611CD0062922E /* Zombie_recursive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Zombie_recursive.h; sourceTree = "<group>"; };
 		61D50B3618B612A70062922E /* Zombie_rec_nr.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Zombie_rec_nr.cpp; sourceTree = "<group>"; };
 		61D50B3718B612A70062922E /* Zombie_rec_nr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Zombie_rec_nr.h; sourceTree = "<group>"; };
+		61D50B3918B615CF0062922E /* RandomGenerator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RandomGenerator.cpp; sourceTree = "<group>"; };
+		61D50B3A18B615CF0062922E /* RandomGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RandomGenerator.h; sourceTree = "<group>"; };
 		8DD76F6C0486A84900D96B5E /* BenchmarkerRandomFromText */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BenchmarkerRandomFromText; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -92,6 +95,8 @@
 				61D50B3418B611CD0062922E /* Zombie_recursive.h */,
 				61D50B3618B612A70062922E /* Zombie_rec_nr.cpp */,
 				61D50B3718B612A70062922E /* Zombie_rec_nr.h */,
+				61D50B3918B615CF0062922E /* RandomGenerator.cpp */,
+				61D50B3A18B615CF0062922E /* RandomGenerator.h */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -168,6 +173,7 @@
 				61D50B3818B612A70062922E /* Zombie_rec_nr.cpp in Sources */,
 				61D50B2F18B6102A0062922E /* Zombie.cpp in Sources */,
 				61D50B3518B611CD0062922E /* Zombie_recursive.cpp in Sources */,
+				61D50B3B18B615CF0062922E /* RandomGenerator.cpp in Sources */,
 				61D50B3218B611080062922E /* Zombie_iterative.cpp in Sources */,
 				61D50B2618B600A30062922E /* Horspool.cpp in Sources */,
 				61D50B2C18B60F130062922E /* Zombie_iter_noshare.cpp in Sources */,
