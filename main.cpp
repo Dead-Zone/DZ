@@ -9,9 +9,15 @@
 #include <time.h>  /* for struct timespec */
 #include <mach/mach_time.h>
 #include <utility>
+
 #include "BM.h"
 #include "Horspool.h"
 #include "KMP.h"
+
+// DZ includes
+#include "Zombie_iter_noshare.h"
+#include "Zombie_recursive.h"
+#include "Zombie_rec_nr.h"
 
 /************
  RANDOM
@@ -29,10 +35,6 @@ public:
     }
     
 };
-
-/************
- PATTERN MATCHING
- ************/
 
 /*
  *  main.cpp
@@ -918,271 +920,6 @@ public:
 		out << "Total matches = " << match_count << std::endl << std::endl;
 #endif
 		return match_count;
-	}
-};
-
-
-class Zombie {
-protected:
-	// Make this protected so that the derived (inheriting) classes can access them.
-	static const int SIGMA=256;
-	int shl[SIGMA], shr[SIGMA];
-	std::string P;
-	int m;
-	
-public:
-	Zombie(const std::string &key) {
-		P = key;
-		m = P.length();
-		// This resembles the Horspool.
-		int i;
-		for(i=0;i<SIGMA;i++) {
-			shl[i]=m-1;
-			shr[i]=m;
-		}
-		for(i=m-1; i>0; --i) {
-			shl[P[i]]=i;
-		}
-		for(i=0; i<m-1; i++) {
-			shr[P[i]]=m-1-i;
-		}
-		
-	}
-	virtual int search(const std::string &text) = 0;
-};
-
-class Zombie_recursive : public Zombie {
-protected:
-	int d, n;
-	const char *T;
-	
-	int searchrec(int lo, int hi) {
-		if (lo >= hi) {
-			d = lo;
-			return 0;
-		} else {
-			int i;
-			int count = 0;
-			int probe = (lo+hi)>>1;
-			assert(probe == (lo+hi)/2);
-			assert(lo <= probe);
-			assert(probe < hi);
-			for (i=0; i<m && P[i] == T[probe+i]; i++) {
-				// Intentionally empty;
-			}
-			count = (i==m);
-			count += searchrec(lo, probe - shl[T[probe]]);
-			count += searchrec(std::max(d, probe + shr[T[probe+m-1]]), hi);
-			return count;
-		}
-	}
-public:
-	Zombie_recursive(const std::string &key) : Zombie(key), d(0), n(0), T(0) {
-		// Intentionally empty.
-	}
-	virtual int search(const std::string &text) {
-		d = 0;
-		n = text.length();
-		T = text.c_str();
-		return searchrec(0, n-(m-1));
-	}
-};
-
-class Zombie_rec_nr : protected Zombie_recursive {
-public:
-	int searchrec_nr(int lo, int hi) {
-		int i;
-		int count;
-		int probe = (lo+hi)>>1;
-		assert(probe == (lo+hi)/2);
-		assert(lo <= probe);
-		assert(probe < hi);
-		for (i=0; i<m && P[i] == T[probe+i]; i++) {
-			// Intentionally empty;
-		}
-		count = (i==m);
-		{
-			int kdleft = probe - shl[T[probe]];
-			if (lo < kdleft) {
-				count += searchrec_nr(lo, kdleft);
-			}
-		}
-		{
-			int kdright = probe + shr[T[probe+m-1]];
-			if (kdright < hi) {
-				count += searchrec_nr(kdright, hi);
-			}
-		}
-		return count;
-	}
-public:
-	Zombie_rec_nr(const std::string &key) : Zombie_recursive(key) {
-		// Intentionally empty.
-	}
-	virtual int search(const std::string &text) {
-		n = text.length();
-		if (n < m) {
-			return 0;
-		}
-		d = 0;
-		T = text.c_str();
-		return searchrec_nr(0, n-(m-1));
-	}
-};
-
-class Zombie_iterative : public Zombie {
-public:
-	Zombie_iterative(const std::string &key) : Zombie(key) {
-		// Intentionally empty.
-	}
-	virtual int search(const std::string &T) {
-		struct  {
-			int first, second;
-		} todo[32];
-		int i, count=0;
-		int tos=0;
-		int n = T.length();
-		int lo=0, hi=n-(m-1);
-		int kdleft, kdright;
-		int probe;
-		
-		if (n < m) {
-			return count;
-		}
-        
-		// Here things get really dirty:
-#define EMPTY (tos==0)
-#define POP (--tos)
-#define TOP (todo[tos])
-#define PUSH(x,y) ++tos; TOP.first=(x); TOP.second=(y)
-		
-		for(;;) {
-			probe=(lo+hi)>>1;
-			assert(probe == (lo+hi)/2);
-			
-			assert(lo<hi);
-			assert(lo<=probe && probe<hi);
-			
-			for (i=0; i<m && P[i]==T[probe+i]; i++) {
-				// Intentionally empty
-			}
-			if (i==m) {
-				count++;
-			}
-			// Do shifts
-			{
-				kdleft = probe - shl[T[probe]];
-				kdright = probe + shr[T[probe + m - 1]];
-				if (lo < kdleft) {
-					// Left is good, so enstack right, regardless if it's good.
-					PUSH(kdright, hi);
-					hi = kdleft;
-				} else {
-					// Left is empty.
-					assert(lo >= kdleft);
-					// ...consider using the right...
-					lo = kdright;
-					if (kdright >= hi) {
-						// Right is also bad...
-						//assert(kdright >= high);
-						while (!EMPTY && !((lo=(std::max(TOP.first, lo))) < (hi=TOP.second))) {
-							assert(!EMPTY);
-							POP;
-						}
-						if (EMPTY) {
-							return count;
-						} else {
-							POP;
-						}
-					}
-				}
-				assert(lo < hi);
-			}
-		}
-#undef EMPTY
-#undef POP
-#undef TOP
-#undef PUSH
-	}
-};
-
-class Zombie_iter_noshare : protected Zombie_iterative {
-public:
-	Zombie_iter_noshare(const std::string &key) : Zombie_iterative(key) {
-		// Intentionally empty.
-	}
-	virtual int search(const std::string &T) {
-		struct  {
-			int first, second;
-		} todo[32];
-		int i, count=0;
-		int tos=0;
-		int n = T.length();
-		int lo=0, hi=n-(m-1);
-		int kdleft, kdright;
-		int probe;
-		
-		if (n < m) {
-			return count;
-		}
-		
-		// Here things get really dirty:
-#define EMPTY (tos==0)
-#define POP (--tos)
-#define TOP (todo[tos])
-#define PUSH(x,y) ++tos; TOP.first=(x); TOP.second=(y)
-		
-		PUSH(0,INT_MAX);
-		
-		for(;;) {
-			probe=(lo+hi)>>1;
-			assert(probe == (lo+hi)/2);
-			
-			assert(lo<hi);
-			assert(lo<=probe && probe<hi);
-			
-			for (i=0; i<m && P[i]==T[probe+i]; i++) {
-				// Intentionally empty
-			}
-			if (i==m) {
-				count++;
-			}
-			// Do shifts
-			{
-				kdleft = probe - shl[T[probe]];
-				kdright = probe + shr[T[probe + m - 1]];
-				if (lo < kdleft) {
-					// Left is good, so enstack right, regardless if it's good.
-					PUSH(kdright, hi);
-					hi = kdleft;
-				} else {
-					// Left is empty.
-					assert(lo >= kdleft);
-					// ...consider using the right...
-					if ((lo=kdright) >= hi) {
-						// Right is also bad...
-						assert(lo >= hi);
-						assert(!EMPTY);
-						while ((TOP.first) >= (TOP.second)) {
-							assert(!EMPTY);
-							POP;
-						}
-						if (TOP.second == INT_MAX) {
-							return count;
-						} else {
-							lo = TOP.first;
-							hi = TOP.second;
-							POP;
-						}
-					}
-				}
-				assert(lo < hi);
-			}
-		}
-#undef EMPTY
-#undef POP
-#undef TOP
-#undef PUSH
 	}
 };
 
